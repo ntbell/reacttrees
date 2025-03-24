@@ -1,7 +1,7 @@
 import './App.css';
 import logo from './logo.svg';
-import { TestJSXComponent } from './TestJSXComponent';
-import { TestTSXComponent } from './TestTSXComponent';
+import { TestJSXComponent } from './TestJSXComponent.tsx';
+import { TestTSXComponent } from './TestTSXComponent.tsx';
 
 function App() {
   return (
