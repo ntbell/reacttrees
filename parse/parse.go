@@ -22,6 +22,7 @@ func FileNameWithoutExtension(input string) string {
 		filename = filename[lastSlashIndex+1:]
 	}
 
+	// Find the part before the last "."
 	lastDotIndex := strings.LastIndex(filename, ".")
 	if lastDotIndex != -1 {
 		filename = filename[:lastDotIndex]
