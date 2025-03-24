@@ -256,8 +256,6 @@ func ConstructTree(entrypoint string, node *Node) error {
 	return nil
 }
 
-// Get the React root file (ToDo: passed in CMD?)
-
 func main() {
 	// Get the root path from the arguments
 	// Ex. go run . ./test-react-app/src/index.js
